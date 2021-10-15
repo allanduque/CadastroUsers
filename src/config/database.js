@@ -1,8 +1,9 @@
 module.exports = {
     dialect: 'mysql',
-    host: 'localhost',
-    username:'root',
-    password:'',
+    host: 'cadastrousers.mysql.database.azure.com',
+    port: "3306",
+    username:'allan@cadastrousers',
+    password:'Ab21121997#',
     database:'cadusers',
     define:{
         timestamps: true,
