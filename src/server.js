@@ -10,4 +10,4 @@ app.use(cors())
 app.use(express.json())
 app.use(routes)
 
-app.listen(4321)
+app.listen(process.env.PORT || 4321)
